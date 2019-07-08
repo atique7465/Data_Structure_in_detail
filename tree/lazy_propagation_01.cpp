@@ -1,4 +1,4 @@
-///Returns the num between range with update property between range.
+///Returns the sum between range with update property between range.
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;
@@ -6,14 +6,14 @@ using namespace std;
 ll arr[mx];
 struct info
 {
-    ll prop,num;
+    ll prop,sum;
 } tree[mx*3];
 
 void create(ll node,ll start,ll end)
 {
     if(start==end)
     {
-        tree[node].num=arr[start];
+        tree[node].sum=arr[start];
         tree[node].prop=0;
         return;
     }
@@ -22,7 +22,7 @@ void create(ll node,ll start,ll end)
     ll mid=(start+end)/2;
     create(left,start,mid);
     create(right,mid+1,end);
-    tree[node].num=tree[left].num+tree[right].num;
+    tree[node].sum=tree[left].sum+tree[right].sum;
 }
 
 void update(ll node,ll start,ll end,ll i,ll j,ll value)
@@ -31,7 +31,7 @@ void update(ll node,ll start,ll end,ll i,ll j,ll value)
         return;
     if(start>=i && end<=j)
     {
-        tree[node].num+=((end-start+1)*value);
+        tree[node].sum+=((end-start+1)*value);
         tree[node].prop+=value;
         return;
     }
@@ -40,7 +40,7 @@ void update(ll node,ll start,ll end,ll i,ll j,ll value)
     ll mid=(start+end)/2;
     update(left,start,mid,i,j,value);
     update(right,mid+1,end,i,j,value);
-    tree[node].num=tree[left].num+tree[right].num;
+    tree[node].sum=tree[left].sum+tree[right].sum+((end-start+1)*tree[node].prop);
 }
 
 ll query(ll node,ll start,ll end,ll i,ll j,ll carry=0)
@@ -48,7 +48,7 @@ ll query(ll node,ll start,ll end,ll i,ll j,ll carry=0)
     if(i>end || j<start)
         return 0;
     if(start>=i && end<=j)
-        return tree[node].num+carry*(end-start+1);
+        return tree[node].sum+carry*(end-start+1);
     ll left=node<<1;
     ll right=(node<<1)+1;
     ll mid=(start+end)>>1;

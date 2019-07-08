@@ -1,6 +1,7 @@
 /// I used segment tree consept here . it can be solved using MO's algo or
 /// square root decomposition or RMQ approaches.
 /// I kept track for 5 values for every node.
+/// the left value and its frequency , the right value and its frequency , Maximum frequency.
 #include<bits/stdc++.h>
 #define ll long long int
 #define sz 100010

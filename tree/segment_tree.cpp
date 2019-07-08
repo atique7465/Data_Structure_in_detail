@@ -5,7 +5,7 @@ using namespace std;
 int arr[mx];
 int tree[mx*3];
 
-void create(int node,int start,int end)
+void create(int node,int start,int end) ///complexity O(n log n).
 {
     if(start==end)
     {
@@ -20,7 +20,7 @@ void create(int node,int start,int end)
     tree[node]=tree[left ]+tree[right];
 }
 
-int query(int node,int start,int end,int i,int j)
+int query(int node,int start,int end,int i,int j) ///complexity O(log n).
 {
     if(i>end || j<start)
         return 0;
@@ -32,7 +32,7 @@ int query(int node,int start,int end,int i,int j)
     return query(left,start,mid,i,j) + query(right,mid+1,end,i,j);
 }
 
-void update(int node,int start,int end,int i,int value)
+void update(int node,int start,int end,int i,int value) ///complexity O(log n).
 {
     if(i>end || i<start)
         return;

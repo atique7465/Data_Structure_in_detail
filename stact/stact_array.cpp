@@ -1,8 +1,8 @@
-/// push()
-/// pop()
-/// top()
-/// isempty()
+//---------------------------------------------------------------------
+/// stack implementation using dinamic array technique.
+/// implemented operations : push(), pop(), top(), isempty() etc.
 /// complexity of all operation is O(1).
+//---------------------------------------------------------------------
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;

@@ -1,4 +1,5 @@
 //---------------------------------------------------------------------
+/// what pushed last poped first. LIFO. 
 /// Stack implementation using dinamic array technique.
 /// implemented operations : push(), pop(), Top(), isempty() etc.
 /// complexity of all operation is O(1).

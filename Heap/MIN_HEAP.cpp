@@ -1,4 +1,4 @@
-//-------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------
 /// We are given a list of n elements; there are three types of operations.
 /// 1. Insert an item into the list
 /// 2. Find the minimum item in the list
@@ -7,7 +7,7 @@
 /// maxheap & minheap are vice versa. Here minheap is implemented using dynamic array technique.
 /// http://www.lightoj.com/article_show.php?article=1005
 /// https://www.youtube.com/watch?v=t0Cq6tVNRBA
-//-------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------
 
 #include<bits/stdc++.h>
 #define ll long long int

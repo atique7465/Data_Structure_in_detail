@@ -6,6 +6,7 @@
 /// phone number check, string check, dictionary check, check the frequency of prefix, contacts check,
 /// longest common substring (not subsequence->DP) and many other application.
 //------------------------------------------------------------------------------------------------------------------
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;

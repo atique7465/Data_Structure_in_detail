@@ -9,3 +9,8 @@
 - if we want to store the objects in an array. like , creating an instance with a string key in an array.  A Hash_function converts that string key into some sort of Hash_value(Integer) and then this value gonna remapped into an index into that array.
 - so, Key -> Hash_code -> index to the array.
 - Hash_Codes are remapped into an index because the potential Hash_Codes may be billion or more but an array cant effort these.
+
+1. **Collision:**
+
+- Two different string key could actually have the same Hash_code that's  because there infinite number of string out there but finite number of Hash_Codes.
+- Even two things with different Hash_Codes could actually wind up mapped to the same index.

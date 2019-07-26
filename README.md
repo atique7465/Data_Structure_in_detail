@@ -75,7 +75,7 @@ there are many solutions.
 - O ( 1 ) for good Hash_Funtion.
 - O ( n ) for terrible Hash_Table.
 
-**Resource for Hash_Table:**
+**Resources for Hash_Table:**
 
 1. hackerrank data structure on youtube.<br/>
 [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)

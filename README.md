@@ -1,5 +1,6 @@
 # Data_Structure_in_detail
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table**
 
 - For any interview problem, have hash_table at the top of mind.
@@ -10,7 +11,7 @@
 - so, Key -> Hash_code -> index to the array.
 - Hash_Codes are remapped into an index because the potential Hash_Codes may be billion or more but an array cant effort these.
 
-Problem 01. **Collision:**
+**Problem 01-> Collision:**
 
 - Two different string key could actually have the same Hash_code that's  because there infinite number of string out there but finite number of Hash_Codes.
 - Even two things with different Hash_Codes could actually wind up mapped to the same index.
@@ -32,4 +33,6 @@ there are many solutions.
 **Resource for Hash_Table:**
 
 1. [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------

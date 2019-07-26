@@ -1,5 +1,5 @@
 # Data_Structure_in_detail
-
+------------------------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table**
 
 - For any interview problem, have hash_table at the top of mind.
@@ -32,3 +32,4 @@ there are many solutions.
 **Resource for Hash_Table:**
 
 1. [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
+------------------------------------------------------------------------------------------------------------------------------------------

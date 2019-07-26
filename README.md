@@ -1,10 +1,7 @@
 # Data_Structure_in_detail
 ----------------------------------------------------------------------------------------------------------------------------------------
-- [ ] **Hash_Table**<br/>
-**_Assume that you have an object and you want to assign a key to it to make searching easy. To store the key/value pair, you can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, you should use hashing._** [Hackerearth notes]
-
-- For any interview problem, have hash_table at the top of mind.
-
+- [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
+**_Assume that we have an object and we want to assign a key to it to make searching easy. To store the key/value pair, we can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, we should use hashing._** [Hackerearth notes]
 - At high label a hash_table is key-value look up. so it gives a way, of given  a key associating a value with it for very very quick look ups.
 - the key as well as the value can be basically any type of data structure. 
 - if we want to store the objects in an array. like , creating an instance with a string key in an array.  A Hash_function converts that string key into some sort of Hash_value(Integer) and then this value gonna remapped into an index into that array.

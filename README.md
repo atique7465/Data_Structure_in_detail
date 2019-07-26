@@ -1,7 +1,7 @@
 # Data_Structure_in_detail
 ----------------------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
-
+<p align="justify">
 **_"Assume that we have an object and we want to assign a key to it to make searching easy. To store the key/value pair, we can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, we should use hashing."_** [Hackerearth notes]
 
 - In hashing, large keys are converted into small keys by using hash functions. The values are then stored in a data structure called hash table. The idea of hashing is to distribute entries (key/value pairs) uniformly across an array. Each element is assigned a key (converted key). By using that key you can access the element in O(1) time. Using the key, the algorithm (hash function) computes an index that suggests where an entry can be found or inserted.
@@ -10,6 +10,7 @@
 - if we want to store the objects in an array. like , creating an instance with a string key in an array.  A Hash_function converts that string key into some sort of Hash_value(Integer) and then this value gonna remapped into an index into that array.
 - so, Key -> Hash_code -> index to the array.
 - Hash_Codes are remapped into an index because the potential Hash_Codes may be billion or more but an array cant effort these.
+</p>
 
 **Problem 01-> Collision:**
 

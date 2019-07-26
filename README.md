@@ -47,8 +47,25 @@ there are many solutions.
     .
     .
     and so on…
-```
-
+    ```
+- Quadratic Probing:<br/>
+    ```
+    index = index % hashTableSize
+    index = (index + 12) % hashTableSize
+    index = (index + 22) % hashTableSize
+    index = (index + 32) % hashTableSize
+    .
+    .
+    and so on…
+    ```
+- Double hashing:<br/>
+    ```
+    index = (index + 1 * indexH) % hashTableSize;
+    index = (index + 2 * indexH) % hashTabl eSize;
+    .
+    .
+    and so on…
+    ```
 **Complexity:**
 - It depends on the Hash_Fuction.
 - O ( 1 ) for good Hash_Funtion.

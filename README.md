@@ -12,15 +12,15 @@
 - Hash_Codes are remapped into an index because the potential Hash_Codes may be billion or more but an array cant effort these.
 
 **Hash function**
-<p align="justify">_A hash function is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size, which falls into the hash table. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes._<p/>
+_<p align="justify">A hash function is any function that can be used to map a data set of an arbitrary size to a data set of a fixed size, which falls into the hash table. The values returned by a hash function are called hash values, hash codes, hash sums, or simply hashes.<p/>_
+- To achieve a good hashing mechanism, It is important to have a good hash function with the following basic requirements:
 
- -To achieve a good hashing mechanism, It is important to have a good hash function with the following basic requirements:
+- Easy to compute: It should be easy to compute and must not become an algorithm in itself.
 
- -Easy to compute: It should be easy to compute and must not become an algorithm in itself.
+- Uniform distribution: It should provide a uniform distribution across the hash table and should not result in clustering.
 
- -Uniform distribution: It should provide a uniform distribution across the hash table and should not result in clustering.
-
- -Less collisions: Collisions occur when pairs of elements are mapped to the same hash value. These should be avoided.
+- Less collisions: Collisions occur when pairs of elements are mapped to the same hash value. These should be avoided.
+   _<p align="justify"> **Note: Irrespective of how good a hash function is, collisions are bound to occur. Therefore, to maintain the performance of a hash table, it is important to manage collisions through various collision resolution techniques.**<p/>_
 
 **Problem 01-> Collision:**
 

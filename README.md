@@ -1,6 +1,6 @@
 # Data_Structure_in_detail
 ----------------------------------------------------------------------------------------------------------------------------------------
-- [ ] **Hash_Table**
+- [ ] **Hash_Table**<br/>
 **_Assume that you have an object and you want to assign a key to it to make searching easy. To store the key/value pair, you can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, you should use hashing._** [Hackerearth notes]
 
 - For any interview problem, have hash_table at the top of mind.

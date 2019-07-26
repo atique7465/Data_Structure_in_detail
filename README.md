@@ -30,4 +30,5 @@ there are many solutions.
 - O ( n ) for terrible Hash_Table.
 
 **Resource for Hash_Table:**
-[https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
+
+1. [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)

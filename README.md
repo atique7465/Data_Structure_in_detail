@@ -81,6 +81,6 @@ there are many solutions.
 [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
 2. Hackerearth notes. ***Better one**<br/>
 [https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/](url) 
-3. Lecture note: Hashing (Hash functions and so on).
+3. Lecture note: Hashing (Hash functions and so on).<br/>
 [https://www.cpp.edu/~ftang/courses/CS240/lectures/hashing.htm](url)
 ----------------------------------------------------------------------------------------------------------------------------------------

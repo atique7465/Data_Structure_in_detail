@@ -10,7 +10,7 @@
 - so, Key -> Hash_code -> index to the array.
 - Hash_Codes are remapped into an index because the potential Hash_Codes may be billion or more but an array cant effort these.
 
-1. **Collision:**
+Problem 01. **Collision:**
 
 - Two different string key could actually have the same Hash_code that's  because there infinite number of string out there but finite number of Hash_Codes.
 - Even two things with different Hash_Codes could actually wind up mapped to the same index.

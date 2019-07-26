@@ -89,4 +89,6 @@ there are many solutions.
 [https://codeforces.com/blog/entry/60445](url)
 6. codeforces -> Anti-hash test. <br/>
 [https://codeforces.com/blog/entry/4898](url)
+7. Medium -> Simple Hash Map (Hash Table) Implementation in C++. <br/>
+[https://medium.com/@aozturk/simple-hash-map-hash-table-implementation-in-c-931965904250](url)
 ----------------------------------------------------------------------------------------------------------------------------------------

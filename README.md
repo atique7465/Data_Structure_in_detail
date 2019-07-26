@@ -85,4 +85,8 @@ there are many solutions.
 [https://www.cpp.edu/~ftang/courses/CS240/lectures/hashing.htm](url)
 4. CP-Algorithms -> String Hashing.<br/>
 [https://cp-algorithms.com/string/string-hashing.html](url)
+5. codeforces -> [Tutorial] Rolling hash and 8 interesting problems [Editorial] <br/>
+[https://codeforces.com/blog/entry/60445](url)
+6. codeforces -> Anti-hash test. <br/>
+[https://codeforces.com/blog/entry/4898](url)
 ----------------------------------------------------------------------------------------------------------------------------------------

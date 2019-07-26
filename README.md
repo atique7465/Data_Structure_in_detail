@@ -83,4 +83,6 @@ there are many solutions.
 [https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/](url) 
 3. Lecture note: Hashing (Hash functions and so on).<br/>
 [https://www.cpp.edu/~ftang/courses/CS240/lectures/hashing.htm](url)
+4. CP-Algorithms -> String Hashing.<br/>
+[https://cp-algorithms.com/string/string-hashing.html](url)
 ----------------------------------------------------------------------------------------------------------------------------------------

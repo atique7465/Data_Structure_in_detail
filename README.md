@@ -1,7 +1,7 @@
 # Data_Structure_in_detail
 ----------------------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
-_<p align="justify"> **Note: For this topic resource link 02 given below is everything**<p/>_
+_<p align="justify"> **Note: For this topic resource link 02 given below explained everything very martly.**<p/>_
 
 **_<p align="justify">"Assume that we have an object and we want to assign a key to it to make searching easy. To store the key/value pair, we can use a simple array like a data structure where keys (integers) can be used directly as an index to store values. However, in cases where the keys are large and cannot be used directly as an index, we should use hashing."<p/>_**[Hackerearth notes]
 

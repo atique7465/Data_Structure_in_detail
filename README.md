@@ -14,3 +14,11 @@
 
 - Two different string key could actually have the same Hash_code that's  because there infinite number of string out there but finite number of Hash_Codes.
 - Even two things with different Hash_Codes could actually wind up mapped to the same index.
+
+**Solutions:**
+there are many solutions.
+
+- Chaining:
+-> when there is a collision just store them in a linked list in the same index of the array.
+-> So, rather than an array of instances it will be an array of linked list of instances.
+

@@ -24,3 +24,11 @@ there are many solutions.
 -> linked list just not save the instances, the actual keys with instances as well.<br/>
 -> thus the search can be occure accurately. Otherwise there is possibility of mass up.
 
+**Complexity:**
+- It depends on the Hash_Fuction.
+- O ( 1 ) for good Hash_Funtion.
+- O ( n ) for terrible Hash_Table.
+
+**Resource for Hash_Table:**
+
+1. [https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)

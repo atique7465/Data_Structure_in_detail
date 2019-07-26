@@ -37,8 +37,9 @@ there are many solutions.
   -> linked list just not save the instances, the actual keys with instances as well.<br/>
   -> thus the search can be occure accurately. Otherwise there is possibility of mass up.
  
- -Linear probing (open addressing or closed hashing):<br/>
-  index = index % hashTableSize
+ - Linear probing (open addressing or closed hashing):<br/>
+    ```
+    index = index % hashTableSize
     index = (index + 1) % hashTableSize
     index = (index + 2) % hashTableSize
     index = (index + 3) % hashTableSize
@@ -46,6 +47,7 @@ there are many solutions.
     .
     .
     and so on…
+```
 
 **Complexity:**
 - It depends on the Hash_Fuction.

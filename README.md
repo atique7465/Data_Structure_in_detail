@@ -18,7 +18,7 @@
 **Solutions:**
 there are many solutions.
 
-- Chaining:
--> when there is a collision just store them in a linked list in the same index of the array.
+- Chaining:__
+-> when there is a collision just store them in a linked list in the same index of the array.__
 -> So, rather than an array of instances it will be an array of linked list of instances.
 

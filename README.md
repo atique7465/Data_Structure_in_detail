@@ -31,6 +31,8 @@ there are many solutions.
 
 **Resource for Hash_Table:**
 
-1. hackerrank data structure on youtube <br/>[https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
-2. Hackerearth notes<br/>[https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/](url) 
+1. hackerrank data structure on youtube.<br/>
+[https://www.youtube.com/watch?v=shs0KM3wKv8&list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX&index=13](url)
+2. Hackerearth notes.<br/>
+[https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/](url) 
 ----------------------------------------------------------------------------------------------------------------------------------------

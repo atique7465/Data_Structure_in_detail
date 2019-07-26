@@ -19,10 +19,10 @@
 there are many solutions.
 
 - Chaining: <br/>
--> when there is a collision just store them in a linked list in the same index of the array.<br/>
--> So, rather than an array of instances it will be an array of linked list of instances.<br/>
--> linked list just not save the instances, the actual keys with instances as well.<br/>
--> thus the search can be occure accurately. Otherwise there is possibility of mass up.
+   -when there is a collision just store them in a linked list in the same index of the array.<br/>
+   -So, rather than an array of instances it will be an array of linked list of instances.<br/>
+   -linked list just not save the instances, the actual keys with instances as well.<br/>
+   -thus the search can be occure accurately. Otherwise there is possibility of mass up.
 
 **Complexity:**
 - It depends on the Hash_Fuction.

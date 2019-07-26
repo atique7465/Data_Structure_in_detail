@@ -21,6 +21,10 @@ _<p align="justify">A hash function is any function that can be used to map a da
 - Uniform distribution: It should provide a uniform distribution across the hash table and should not result in clustering.
 
 - Less collisions: Collisions occur when pairs of elements are mapped to the same hash value. These should be avoided.
+```
+hash = hashfunc(key)
+index = hash % array_size
+```
    _<p align="justify"> **Note: Irrespective of how good a hash function is, collisions are bound to occur. Therefore, to maintain the performance of a hash table, it is important to manage collisions through various collision resolution techniques.**<p/>_
 
 **Problem 01-> Collision:**

@@ -31,11 +31,21 @@ _<p align="justify">A hash function is any function that can be used to map a da
 **Solutions:**
 there are many solutions.
 
-- Chaining: <br/>
+- Separate chaining (open hashing): <br/>
   -> when there is a collision just store them in a linked list in the same index of the array.<br/>
   -> So, rather than an array of instances it will be an array of linked list of instances.<br/>
   -> linked list just not save the instances, the actual keys with instances as well.<br/>
   -> thus the search can be occure accurately. Otherwise there is possibility of mass up.
+ 
+ -Linear probing (open addressing or closed hashing):<br/>
+  index = index % hashTableSize
+    index = (index + 1) % hashTableSize
+    index = (index + 2) % hashTableSize
+    index = (index + 3) % hashTableSize
+    .
+    .
+    .
+    and so on…
 
 **Complexity:**
 - It depends on the Hash_Fuction.

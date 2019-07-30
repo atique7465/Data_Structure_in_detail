@@ -27,7 +27,7 @@ void init()
     for(i=0; i<n; i++)
     {
         parent[i]=i;
-        sz[i]=i;
+        sz[i]=1;
     }
 }
 

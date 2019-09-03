@@ -1,3 +1,6 @@
+/// RESOURCE 01: https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
+/// RESOURCE 02: https://www.youtube.com/watch?v=PoBGyrIWisE
+
 #include<bits/stdc++.h>
 using namespace std;
 

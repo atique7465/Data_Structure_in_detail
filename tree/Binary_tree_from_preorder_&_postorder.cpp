@@ -39,7 +39,7 @@ node* Built_Tree_Helper(char pre[],char post[],map<char,int>& m,int postStart,in
     return RootNode;
 }
 
-node* BuiltTree(char pre[],char post[],char length)
+node* BuiltTree(char pre[],char post[],int length)
 {
     preIndex = 0;
     map<char,int>m;

@@ -41,7 +41,7 @@ double evaluate(string postfix)
             double operand = 0.0;
             int ck=0;
             double g = 10.0;
-            while(i<postfix.size() && (postfix[i]!='_'||postfix[i]!='_'))
+            while(i<postfix.size() && postfix[i]!='_')
             {
                 if(postfix[i]=='.')
                     ck=1;

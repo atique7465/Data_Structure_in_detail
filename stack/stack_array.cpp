@@ -26,7 +26,6 @@ public:
 
 Stack::Stack(ll sz)
 {
-    cout<<"hi"<<endl;
     Top=-1;
     length=sz;
     a = new ll[length];

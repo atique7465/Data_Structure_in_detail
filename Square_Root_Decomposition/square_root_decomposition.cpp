@@ -58,7 +58,7 @@ int main()
         cin>>input[i];
 
     segment_size = sqrt(n);
-    cout<<segment_size<<endl;
+    
     preprocess();
 
     cout<<"Enter the number of query : ";

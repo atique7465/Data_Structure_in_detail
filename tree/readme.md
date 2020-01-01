@@ -52,7 +52,7 @@
 
 **Implementation**
 - Dinamucally created nodes like linked list.
-- Using array. (Normally used to implement Heap<br>
+- Using array. (Normally used to implement Heap)<br>
   for node at index i,<br>
   left child index is: 2*i + 1<br>
   right child index is: 2*i + 2

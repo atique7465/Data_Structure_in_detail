@@ -1,3 +1,4 @@
+**TREE DATA STRUCTURE IN DETAIL**
 
 - >**<p align="justify">Tree is an efficient way of storing and organizing data that is naturally hierachical.<p/>**
 - >**<p align="justify">Tree data structure can be defined as collection of entities called nodes linked together to simulate a hierarchy.<p/>**

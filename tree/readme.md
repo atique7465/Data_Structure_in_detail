@@ -17,7 +17,7 @@
      1. Recursive Data Structure.
      2. Tree with n nodes can have at most n-1 edges & may be 0 edges.
         <br>if n-1 then it is fully connected tree.
-        <br>else it is a forest.
+        <br>below n-1 it is a forest.
      3. Depth & Height:<br>
         depth of X = lengrh of path from root to X or no. of edges from root to X.<br>
         height of X = No. of edges in longest path from X to leaf.<br>

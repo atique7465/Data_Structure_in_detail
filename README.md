@@ -1,5 +1,15 @@
 # Data_Structure_in_detail
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+>**<p align="justify">In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.<p/>**
+
+- Which Data structure should use depends on : 
+     1. what needs to be stored.
+     2. Cost of operation.
+     3. Memory Uses.
+     4. Ease of implementation.
+
+
 - [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
 _<p align="justify"> **Note: For this topic resource link 02 given below explained everything very smartly.**<p/>_
 

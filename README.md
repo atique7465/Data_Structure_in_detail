@@ -9,7 +9,7 @@
      3. Memory Uses.
      4. Ease of implementation.
 
-
+--------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
 _<p align="justify"> **Note: For this topic resource link 02 given below explained everything very smartly.**<p/>_
 

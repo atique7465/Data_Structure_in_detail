@@ -4,7 +4,7 @@
 - >**<p align="justify">Tree is a non-linear data structure. its a hierarchycal structure.<p/>**
 - >**<p align="justify">Each node contains some data & data can be any type.<p/>**
 
-![](img/binary_tree.JPEG)
+![tree image](img/binary_tree.jpeg)
 
 - Some Points / Definitaion : 
      1. **Root:** The topmost node is called Root of the tree.
@@ -12,4 +12,13 @@
      3. **Sibling:** Children of same parent are called Sibling.
      4. **Leaf Node:** Any node that does not have a child called Leaf Node.
      5. **Ancestor & Descendent:** If we can go from node A to node B then A is ancestor of B. B is discendent of A.
-     6. **:** 
+
+- Properties of Tree:
+     1. Recursive Data Structure.
+     2. Tree with n nodes can have at most n-1 edges & may be 0 edges.
+        <br>if n-1 then it is fully connected tree.
+        <br>else it is a forest.
+     3. Depth & Height:<br>
+        depth of X = lengrh of path from root to X or no. of edges from root to X.<br>
+        height of X = No. of edges in longest path from X to leaf.<br>
+        height of Tree = Height of Root Node.

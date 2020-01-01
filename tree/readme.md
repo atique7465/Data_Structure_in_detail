@@ -44,10 +44,18 @@
 - **Balance binary tree:** Difference between height of left & right subtree for every node is not more than k(normally k = 1).
 - **So, Complexity of dense/perfect/complete/balance binary tree is:** O(log n).
 - **for parse tree complexity will be:** O(n-1) or O(n).
+- **Height:** No. of edges in longest path from root to leaf.
+- **Empty Tree:** Tree with no node. its height is -1. 
+- **Height of a tree with one node is 0.
 
 ![tree image](img/binary_tree_catagory.png)
 
-
+**Implementation**
+- Dinamucally created nodes like linked list.
+- Using array. (Normally used to implement Heap<br>
+  for node at index i,<br>
+  left child index is: 2*i + 1<br>
+  right child index is: 2*i + 2
 
 **Resource:**
 1. Data structures: Binary Tree.<br/>

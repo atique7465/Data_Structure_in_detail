@@ -26,5 +26,20 @@
         
 -----------------------------------------------------------------------------------------------------------------------------
 **Binary Tree**
-- Each node in the tree can have at most two children (0/1/2).
+- Each node in the tree can have at most two children (0/1/2). a tree with only one node is also a binary tree.
 
+![normal binary tree](img/normal_binary_tree.png)
+
+- **Strict/proper binary tree:** each node can have either 0 or 2 children.
+- **Complete Binary Tree:** All levels except possibly the last are completely filled & all nodes are left as possible.
+- **perfect binary tree:** All levels are completely filled.
+- **Maximum Number of nodes at level i is 2^i**
+- **Maximum No. of nodes in a tree with height h**<br> = 2^0 + 2^1 + .... + 2^h<br>
+                                                   = 2^(h+1) - 1<br>
+                                                   = 2^(no. of levels) - 1<br>
+- **Height of a complete binary tree h is:** floor(log n).  as, n = 2^(h+1) -1;
+- **Balance binary tree:** Difference between height of left & right subtree for every node is not more than k(normally k = 1).
+- **So, Complexity of dense/perfect/complete/balance binary tree is:** O(log n).
+- **for parse tree complexity will be:** O(n-1) or O(n).
+
+![tree image](img/binary_tree_catagory.png)

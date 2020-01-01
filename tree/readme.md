@@ -23,7 +23,10 @@
         depth of X = lengrh of path from root to X or no. of edges from root to X.<br>
         height of X = No. of edges in longest path from X to leaf.<br>
         height of Tree = Height of Root Node.
-        
+ 
+**Resource:**
+1. Data structures: Introduction to Trees.<br/>
+[https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=25](url)
 -----------------------------------------------------------------------------------------------------------------------------
 **Binary Tree**
 - Each node in the tree can have at most two children (0/1/2). a tree with only one node is also a binary tree.
@@ -43,3 +46,9 @@
 - **for parse tree complexity will be:** O(n-1) or O(n).
 
 ![tree image](img/binary_tree_catagory.png)
+
+
+
+**Resource:**
+1. Data structures: Binary Tree.<br/>
+[https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=26](url)

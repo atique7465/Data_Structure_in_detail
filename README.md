@@ -8,7 +8,10 @@
      2. Cost of operation.
      3. Memory Uses.
      4. Ease of implementation.
-
+     
+**Resource:**
+1. Data structures: Introduction to Trees.<br/>
+[https://www.youtube.com/watch?v=qH6yxkw0u78&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=25](url)
 --------------------------------------------------------------------------------------------------------------------------
 - [ ] **Hash_Table** (_For any interview problem, have hash_table at the top of mind._)<br/> 
 _<p align="justify"> **Note: For this topic resource link 02 given below explained everything very smartly.**<p/>_

@@ -27,4 +27,4 @@
 -----------------------------------------------------------------------------------------------------------------------------
 **Binary Tree**
 - Each node in the tree can have at most two children (0/1/2).
-![normal binary tree](img/normal_binary_tree.png)
+

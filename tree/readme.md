@@ -33,7 +33,7 @@
 
 ![normal binary tree](img/normal_binary_tree.png)
 
-- **Strict/proper binary tree:** each node can have either 0 or 2 children.
+- **Strict/Proper/Full binary tree:** each node can have either 0 or 2 children.
 - **Complete Binary Tree:** All levels except possibly the last are completely filled & all nodes are left as possible.
 - **perfect binary tree:** All levels are completely filled.
 - **Maximum Number of nodes at level i is 2^i**

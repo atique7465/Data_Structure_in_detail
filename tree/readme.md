@@ -89,14 +89,25 @@
      |Delete	|O(n)	      |O(n)         |O(n)       |O(log n)     |
      
 
-**Balanced Binary Tree**
-- AVL Tree
-  In computer science, an AVL tree (named after inventors Adelson-Velsky and Landis) is a self-balancing binary search tree.   It was the first such data structure to be invented. In an AVL tree, **the heights of the two child subtrees of any node     differ by at most one**; if at any time they differ by more than one, rebalancing is done to restore this property.       
-  **Lookup,   insertion, and deletion all take O(log n)** 
-  Resource:
-  01. AVL Tree - Insertion and Rotations<br>     
-[https://www.youtube.com/watch?v=jDM6_TnYIqE](url)
+**Balanced Binary Search Tree**
+- AVL Tree<br>
+  In computer science, an AVL tree (named after inventors Adelson-Velsky and Landis) is a self-balancing binary search tree.   It was the first such data structure to be invented. In an AVL tree, **the heights of the two child subtrees of any node     differ by at most one**; if at any time they differ by more than one, rebalancing is done to restore this property.      **Lookup,   insertion, and deletion all take O(log n)**<br> 
+- Red Black Tree<br>
+  A red–black tree is a kind of self-balancing binary search tree in computer science. Each node of the binary tree has an     extra bit, and that bit is often interpreted as the color (red or black) of the node. These color bits are used to ensure   the tree remains approximately balanced during insertions and deletions
+- Complexity:
 
+     |Algorithm|Average	|Worst case|
+     |---------|:--------|:--------:|
+     |Space    |O(n)	|O(n)      |
+     |Search	|O(log n)	|O(log n)  |
+     |Insert	|O(log n)	|O(log n)  |
+     |Delete	|O(log n)	|O(log n)  |
+     
+- Resource:
+   01. AVL Tree - Insertion and Rotations<br>
+   [https://www.youtube.com/watch?v=jDM6_TnYIqE](url)
+
+<br>
 **Advantages of BST over Hash Table**<br>
 Hash Table supports following operations in Θ(1) time.
 1) Search
@@ -112,13 +123,13 @@ So Hash Table seems to beating BST in all common operations. When should we pref
 - With Self-Balancing BSTs, all operations are guaranteed to work in O(Logn) time. But with Hashing, Θ(1) is average time     and some particular operations may be costly, especially when table resizing happens.
 
  **Resource:**
-1. Data structures: Binary Search Tree.<br>
+01. Data structures: Binary Search Tree.<br>
 [https://www.youtube.com/watch?v=pYT9F8_LFTM&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=27](url)
-2. Binary search tree wikipedia.<br>
+02. Binary search tree wikipedia.<br>
 [https://en.wikipedia.org/wiki/Binary_search_tree](url)
-3. Binary Search Tree GeeksForGeeks.<br/>
+03. Binary Search Tree GeeksForGeeks.<br>
 [https://www.geeksforgeeks.org/binary-search-tree-data-structure/](url)
-4.Advantages of BST over Hash Table.<br/>
+04. Advantages of BST over Hash Table.<br>
 [https://www.geeksforgeeks.org/advantages-of-bst-over-hash-table/](url)
 
 ---------------------------------------------------------------------------------------------------------------------------

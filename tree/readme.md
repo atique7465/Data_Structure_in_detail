@@ -107,7 +107,6 @@
    01. AVL Tree - Insertion and Rotations<br>
    [https://www.youtube.com/watch?v=jDM6_TnYIqE](url)
 
-<br>
 **Advantages of BST over Hash Table**<br>
 Hash Table supports following operations in Θ(1) time.
 1) Search

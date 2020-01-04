@@ -94,6 +94,11 @@
   In computer science, an AVL tree (named after inventors Adelson-Velsky and Landis) is a self-balancing binary search tree.   It was the first such data structure to be invented. In an AVL tree, **the heights of the two child subtrees of any node     differ by at most one**; if at any time they differ by more than one, rebalancing is done to restore this property.      **Lookup,   insertion, and deletion all take O(log n)**<br> 
 - Red Black Tree<br>
   A red–black tree is a kind of self-balancing binary search tree in computer science. Each node of the binary tree has an     extra bit, and that bit is often interpreted as the color (red or black) of the node. These color bits are used to ensure   the tree remains approximately balanced during insertions and deletions
+- AVL vs Red Black<br>
+  - AVL trees provide faster lookups than Red Black Trees because they are more strictly balanced.
+  - Red Black Trees provide faster insertion and removal operations than AVL trees as fewer rotations are done due to           relatively relaxed balancing.
+  - AVL trees store balance factors or heights with each node, thus requires storage for an integer per node whereas Red         Black Tree requires only 1 bit of information per node.
+  - Red Black Trees are used in most of the language libraries like map, multimap, multiset in C++ whereas AVL trees are         used in databases where faster retrievals are required.
 - Complexity:
 
      |Algorithm|Average	|Worst case|

@@ -113,3 +113,11 @@ there are many solutions.
 7. Medium -> Simple Hash Map (Hash Table) Implementation in C++. <br/>
 [https://medium.com/@aozturk/simple-hash-map-hash-table-implementation-in-c-931965904250](url)
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+**To Explore Deeply**
+1. Codexon<br>
+   [https://web.archive.org/web/20101114013835/http://www.codexon.com/posts/hash-functions-the-modulo-prime-myth](url)
+2. General Purpose Hash Function Algorithms.
+   [https://web.archive.org/web/20101115165208/http://www.partow.net/programming/hashfunctions#HashAndPrimes](url)
+  
+   

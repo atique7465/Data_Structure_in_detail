@@ -89,13 +89,13 @@
      |Delete	|O(n)	      |O(n)         |O(n)       |O(log n)     |
      
 
-**Advantages of BST over Hash Table**
+**Advantages of BST over Hash Table**<br>
 Hash Table supports following operations in Θ(1) time.
 1) Search
 2) Insert
 3) Delete
 
-The time complexity of above operations in a self-balancing Binary Search Tree (BST) (like Red-Black Tree, AVL Tree, Splay Tree, etc) is O(Logn).
+The time complexity of above operations in a self-balancing Binary Search Tree (BST) (like Red-Black Tree, AVL Tree, Splay Tree, etc) is O(Logn).<br>
 So Hash Table seems to beating BST in all common operations. When should we prefer BST over Hash Tables, what are advantages. Following are some important points in favor of BSTs.
 
 - We can get all keys in sorted order by just doing Inorder Traversal of BST. This is not a natural operation in Hash Tables   and requires extra efforts.

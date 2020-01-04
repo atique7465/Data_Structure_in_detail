@@ -88,6 +88,14 @@ there are many solutions.
 - O ( 1 ) for good Hash_Funtion.
 - O ( n ) for terrible Hash_Table.
 
+**Applications:**
+- Associative arrays: Hash tables are commonly used to implement many types of in-memory tables. They are used to implement   associative arrays (arrays whose indices are arbitrary strings or other complicated objects).
+- Database indexing: Hash tables may also be used as disk-based data structures and database indices (such as in dbm).
+- Caches: Hash tables can be used to implement caches i.e. auxiliary data tables that are used to speed up the access to       data, which is primarily stored in slower media.
+- Object representation: Several dynamic languages, such as Perl, Python, JavaScript, and Ruby use hash tables to implement   objects.
+- Hash Functions are used in various algorithms to make their computing faster
+
+
 **Resources for Hash_Table:**
 
 1. hackerrank data structure on youtube.<br/>

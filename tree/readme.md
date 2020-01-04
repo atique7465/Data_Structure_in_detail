@@ -60,3 +60,30 @@
 **Resource:**
 1. Data structures: Binary Tree.<br/>
 [https://www.youtube.com/watch?v=H5JubkIy_p8&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=26](url)
+
+---------------------------------------------------------------------------------------------------------------------------
+**Binary Search Tree**
+<br>is a node-based binary tree data structure which has the following properties:
+
+- The left subtree of a node contains only nodes with keys lesser than the node’s key.
+- The right subtree of a node contains only nodes with keys greater than the node’s key.
+- The left and right subtree each must also be a binary search tree.
+
+![BSTimage](img/BSTSearch.png)
+
+- Complexity:
+
+     |Algorithm|Average	|Worst case|
+     |---------|:--------|:--------:|
+     |Space    |O(n)	|O(n)      |
+     |Search	|O(log n)	|O(n)      |
+     |Insert	|O(log n)	|O(n)      |
+     |Delete	|O(log n)	|O(n)      |
+     
+- Comparison with Array & Linked list:
+
+     |Algorithm|Array(Unsorted)|Array(sorted)|Linked list|BST(Balanced)|
+     |---------|:--------------|:------------|:----------|:-----------:|
+     |Search	|O(n)	      |O(log n)     |O(n)       |O(log n)     |
+     |Insert	|O(1)	      |O(n)         |O(1)       |O(log n)     |
+     |Delete	|O(n)	      |O(n)         |O(n)       |O(log n)     |

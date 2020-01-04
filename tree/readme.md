@@ -87,3 +87,11 @@
      |Search	|O(n)	      |O(log n)     |O(n)       |O(log n)     |
      |Insert	|O(1)	      |O(n)         |O(1)       |O(log n)     |
      |Delete	|O(n)	      |O(n)         |O(n)       |O(log n)     |
+     
+ **Resource:**
+1. Data structures: Binary Search Tree.<br>
+[https://www.youtube.com/watch?v=pYT9F8_LFTM&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=27](url)
+2. Binary search tree wikipedia.<br>
+[https://en.wikipedia.org/wiki/Binary_search_tree](url)
+3. Binary Search Tree GeeksForGeeks.<br/>
+[https://www.geeksforgeeks.org/binary-search-tree-data-structure/](url)

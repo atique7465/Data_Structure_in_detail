@@ -79,7 +79,7 @@
      |Search	|O(log n)	|O(n)      |
      |Insert	|O(log n)	|O(n)      |
      |Delete	|O(log n)	|O(n)      |
- In average whene tree is kind of balanced Complexity is O(log n), for sqewed BST complexity will be O(n). 
+     In average whene tree is kind of balanced Complexity is O(log n), for sqewed BST complexity will be O(n). 
      
 - Comparison with Array & Linked list:
 

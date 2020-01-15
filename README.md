@@ -112,7 +112,6 @@ there are many solutions.
 [https://codeforces.com/blog/entry/4898](url)
 7. Medium -> Simple Hash Map (Hash Table) Implementation in C++. <br/>
 [https://medium.com/@aozturk/simple-hash-map-hash-table-implementation-in-c-931965904250](url)
-----------------------------------------------------------------------------------------------------------------------------------------
 
 **To Explore Deeply**
 1. Codexon<br>
@@ -120,4 +119,17 @@ there are many solutions.
 2. General Purpose Hash Function Algorithms.
    [https://web.archive.org/web/20101115165208/http://www.partow.net/programming/hashfunctions#HashAndPrimes](url)
   
-   
+----------------------------------------------------------------------------------------------------------------------------------------
+**Underlying Data Structure of SLT in C++**
+- unordered_map -> hash table
+- std::map -> usually implemented with a red-black tree or self balanced binary tree
+- unordered_set -> uses hash table
+- std::set -> usually implemented with a red-black tree or self balanced binary tree
+- Vector -> dynamically resizing array
+- List -> Doubly Linked List
+- C++ string class -> internally uses char array to store character but all memory management, allocation, and null  
+  termination is handled by string class itself that is why it is easy to use.
+- stack -> could be an array, a vector, an ArrayList, a linked list, or any other collection.
+- queue -> could be an array, a Vector, an ArrayList, a LinkedList, or any other collection.
+- priority_queue -> heap sort.
+

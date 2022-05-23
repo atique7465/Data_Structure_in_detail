@@ -1,5 +1,5 @@
 /**
- * ################### Fenwick Tree #################
+ * ################### Fenwick Tree | BIT #################
  * Tutorial: 
  *     * https://cp-algorithms.com/data_structures/fenwick.html#1-point-update-and-range-query
  *     * https://www.youtube.com/watch?v=uSFzHCZ4E-8&list=PLqDolECUfoYxtkcoJEO-7_Irdpd2lnAPx&index=3&ab_channel=StableSort

@@ -17,50 +17,62 @@
 ///https://cp-algorithms.com/data_structures/disjoint_set_union.html
 
 #include<bits/stdc++.h>
-#define ll long long int
 using namespace std;
-ll parent[100];
-ll sz[100],i,j,n;
 
-void init()
-{
-    for(i=0; i<n; i++)
-    {
-        parent[i]=i;
-        sz[i]=1;
+class DSU {
+    int parent[100]; ///Size should be >= n;
+    int sz[100], i;
+
+public:
+    DSU(int n) {
+        init(n);
     }
-}
 
-ll find_root(ll v)  ///path compression.
-{
-    if(v==parent[v])
-        return v;
-    return parent[v]=find_root(parent[v]);
-}
-
-void union_by_size(ll a,ll b)  /// balancing the tree.
-{
-    ll root_a=find_root(a);
-    ll root_b=find_root(b);
-    if(root_a!=root_b)
-    {
-        if(sz[root_a]<sz[root_b])
-        {
-            parent[root_a]=parent[root_b];
-            sz[root_b]+=sz[root_a];
-        }
-        else
-        {
-            parent[root_b]=parent[root_a];
-            sz[root_a]+=sz[root_b];
+    void init(int n) {
+        for (i = 0; i < n; i++) {
+            parent[i] = i;
+            sz[i] = 1;
         }
     }
-}
 
-/*
+    ///path compression.
+    int find_root(40)<<endl;
+    .
+    int find_root(40)<<endl;(int v) {
+        if (v == parent[v])
+            return v;
+        return parent[v] = find_root(parent[v]);
+    }
+
+    /// balancing the tree.
+    void union_by_size(int a, int b) {
+        int root_a = find_root(a);
+        int root_b = find_root(b);
+        if (root_a != root_b) {
+            if (sz[root_a] < sz[root_b]) {
+                parent[root_a] = parent[root_b];
+                sz[root_b] += sz[root_a];
+            } else {
+                parent[root_b] = parent[root_a];
+                sz[root_a] += sz[root_b];
+            }
+        }
+    }
+};
+
+
 int main()
 {
-
+    DSU* dsu = new DSU(50);
+    
+    dsu->union_by_size(1, 10)
+    dsu->union_by_size(10, 40)
+    dsu->union_by_size(2, 3)
+    dsu->union_by_size(3, 1)
+        
+    cout<<dsu->find_root(40)<<endl;
+    cout<<dsu->find_root(3)<<endl;
+        
     return 0;
 }
-*/
+

@@ -6,6 +6,9 @@
  * Build tree: build_tree(1, 0, N-1)
  * Update tree: update_tree(1, 0, N-1, i, j, value)
  * Query tree: query_tree(1, 0, N-1, i, j)
+ * build_tree: O(N lg(N)) 
+ * update_tree: O(lg(N + k)) 
+ * query_tree: O(lg(N + k))
  */
 
 #include<iostream>
